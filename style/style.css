@@ -150,6 +150,29 @@ font-size: 14px;
     opacity: 0.6;
 }
 /* PORTFOLIO*/
-a:active{
-    color:var(--acent-color)
+ .active-btn{
+    color: var(--acent-color);
+ }
+ .prt-btn{
+    border: none;
+    border-radius: 4px;
+    background-color:var(--main-bg-secondary-light);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    color: var(--text-dark-color);
+ }
+ .prt-btn:hover,:focus{
+    background-color: var(--acent-color);
+    color: var(--main-light);
+ }
+.title-sample{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 2;
+}
+.text-sample{
+    color: var(--text-color-light);
+    font-size: 16px;
+    line-height: 1.8;
 }
