@@ -100,12 +100,6 @@ body {
     font-size: 44px;
     line-height: 1.5;
 }
-
-.hero-button:hover,
-.hero-button:focus {
-    color: var(--logo-dark);
-}
-
 .hero-button {
     border: none;
     background-color: var(--acent-color);
