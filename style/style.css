@@ -69,6 +69,7 @@ body {
 .navigation-item:hover,
 .navigation-item:focus {
     color: var(--acent-color);
+    background-color: var(--main-light);    
 }
 
 .tel-mail {
@@ -190,6 +191,7 @@ body {
     font-size: 16px;
     line-height: 1.6;
     color: var(--text-dark-color);
+    cursor: pointer;
 }
 
 .prt-btn:hover,
@@ -199,7 +201,8 @@ body {
 }
 
 .title-sample {
-    font-weight: 500;
+    color:var(--text-dark-color);
+    font-weight: 700;
     font-size: 18px;
     line-height: 2;
 }
@@ -208,4 +211,10 @@ body {
     color: var(--text-color-light);
     font-size: 16px;
     line-height: 1.8;
+}
+.footer-adress:hover{
+    color: var(--acent-color);
+    }
+.footer-adress:focus{
+    background-color:var(--main-light);
 }
